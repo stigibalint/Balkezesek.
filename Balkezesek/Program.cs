@@ -21,7 +21,7 @@ Console.WriteLine("4. feladat:");
 foreach (var jatekos in jatekosok1999Oktober)
 {
     double magassagCm = jatekos.JatekosMagassag * 2.54;
-    Console.WriteLine($"{jatekos.Nev1} {magassagCm}".PadLeft(20));
+    Console.WriteLine($"{jatekos.Nev1} {Math.Round(magassagCm,1)} cm".PadLeft(30));
 }
 
 Console.WriteLine("5. feladat: ");
